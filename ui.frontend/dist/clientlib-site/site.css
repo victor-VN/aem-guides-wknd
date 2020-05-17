@@ -290,6 +290,55 @@ p {
   .cmp-breadcrumb .cmp-breadcrumb__item-link:first {
     padding-left: 0px; }
 
+/* WKND Byline styles */
+.cmp-byline .cmp-byline__image {
+  float: left;
+  /* This class targets a Core Component Image CSS class */ }
+  .cmp-byline .cmp-byline__image .cmp-image__image {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
+.cmp-byline .cmp-byline__name {
+  font-size: 24px;
+  font-family: "Asar", Georgia, "Times New Roman", Times, serif;
+  padding-top: 0.5rem;
+  margin-left: 85px;
+  margin-bottom: .25rem;
+  margin-top: 0rem; }
+
+.cmp-byline .cmp-byline__occupations {
+  margin-left: 85px;
+  color: #696969;
+  font-size: 12px;
+  text-transform: uppercase; }
+
+.cmp-byline .cmp-byline__image {
+  float: left;
+  /* This class targets a Core Component Image CSS class */ }
+  .cmp-byline .cmp-byline__image .cmp-image__image {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
+.cmp-byline .cmp-byline__name {
+  font-size: 24px;
+  font-family: "Asar", Georgia, "Times New Roman", Times, serif;
+  padding-top: 0.5rem;
+  margin-left: 85px;
+  margin-bottom: .25rem;
+  margin-top: 0rem; }
+
+.cmp-byline .cmp-byline__occupations {
+  margin-left: 85px;
+  color: #696969;
+  font-size: 12px;
+  text-transform: uppercase; }
+
 /* WKND Layout Container - Fixed Width */
 @media (min-width: 1025px) {
   .cmp-layout-container--fixed {
@@ -612,4 +661,29 @@ a.cmp-search__item:hover {
   padding-top: 8px;
   content: '';
   border-bottom: 2px solid #FFE900; }
+
+/* WKND Byline styles */
+.cmp-byline .cmp-byline__image {
+  float: left;
+  /* This class targets a Core Component Image CSS class */ }
+  .cmp-byline .cmp-byline__image .cmp-image__image {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
+.cmp-byline .cmp-byline__name {
+  font-size: 24px;
+  font-family: "Asar", Georgia, "Times New Roman", Times, serif;
+  padding-top: 0.5rem;
+  margin-left: 85px;
+  margin-bottom: .25rem;
+  margin-top: 0rem; }
+
+.cmp-byline .cmp-byline__occupations {
+  margin-left: 85px;
+  color: #696969;
+  font-size: 12px;
+  text-transform: uppercase; }
 
